@@ -1,0 +1,12 @@
+{
+    "name": "TwitterImageJpgToPng",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "twitter image jpg to png.",
+    "content_scripts": [{
+      "matches": ["https://pbs.twimg.com/media/*"],
+      "js": [
+        "content.js"
+      ]
+    }]
+  }
